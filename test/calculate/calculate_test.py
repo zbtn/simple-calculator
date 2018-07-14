@@ -25,5 +25,9 @@ def test_multiply_function():
 	assert calc.multiply(2,2) == 4
 	assert calc.multiply(5,5) == 25
 
+def test_divide_function():
+	"""Test if divide function works."""
+	assert calc.divide(10,2) == 5
+
 if __name__ =='__main__':
 	unittest.main(exit = False)
